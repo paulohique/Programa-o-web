@@ -1,6 +1,6 @@
 # Exemplo de tela
 
-![Exemplo de tela do formulário]<img width="777" height="935" alt="image" src="https://github.com/user-attachments/assets/5c5ae9ed-56f9-42d9-aa44-e5a9b3571c5e" />
+<img width="777" height="935" alt="image" src="https://github.com/user-attachments/assets/5c5ae9ed-56f9-42d9-aa44-e5a9b3571c5e" />
 
 # Formulário de Cadastro de Usuário
 
@@ -50,4 +50,5 @@ Este projeto é um formulário web desenvolvido para fins didáticos, com foco e
 ---
 
 Este projeto foi desenvolvido para fins educacionais.
+
 
