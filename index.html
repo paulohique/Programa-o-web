@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <script src="js.js"></script>
+  </head>
+  <body>
+    <form class="container">
+  <h1>Cadastro de Usuário</h1>
+  <p class="note">Exercício didático (Programação p/ internet 2)</p>
+      <div class="field">
+        <label for="name"> Nome Completo </label>
+        <input type="text" id="name" placeholder="Ex: Pedrinho jaguatirica" />
+      </div>
+      <div class="field">
+        <label for="cpf"> CPF </label>
+        <input type="text" id="cpf" placeholder="000000000-60" />
+      </div>
+      <div class="field">
+        <label for="login"> Login </label>
+        <input type="text" id="login" placeholder="Ex: Osemdedo"/>
+      </div>
+      <div class="field">
+        <label for="email"> E-mail </label>
+        <input type="email" id="email" placeholder="senhordosanels@yahoo.com"/>
+      </div>
+      <div class="field">
+        <label for="senha"> Senha </label>
+        <div class="password-group">
+          <input type="password" id="senha" placeholder="No mínimo 8 caracteres, com letra e número" />
+          <button type="button" id="togglepassword" class="eye-btn" tabindex="-1">
+            <i class="fas fa-eye" id="iconSenha" aria-label="Mostrar senha"></i>
+          </button>
+        </div>
+      </div>
+      <div class="field">
+        <label for="conf_senha"> Confirmar Senha</label>
+        <div class="password-group">
+          <input type="password" id="conf_senha" placeholder="Repita a senha" />
+          <button type="button" id="toggleconfpassword" class="eye-btn" tabindex="-1">
+            <i class="fas fa-eye" id="iconConfSenha" aria-label="Mostrar senha"></i>
+          </button>
+        </div>
+      </div>
+      <div class="field">
+        <label for="salario"> Salário (R$)</label>
+        <input type="number" id="salario" placeholder="Ex: 400.0"/>
+      </div>
+      <div class="field">
+        <label for="dependentes"> Dependentes </label>
+        <input type="number" id="dependentes" placeholder="Ex: 2" />
+      </div>
+      <div class="field">
+        <label for="ir"> IR (Calculado) </label>
+        <input type="number" id="ir" placeholder="Ex: 153.0" readonly />
+      </div>
+      <div class="button-group">
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+      </div>
+    </form>
+  </body>
+</html>
+
+
+
+
